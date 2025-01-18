@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Circle (Unprogressed Area) -->
+    <item>
+        <shape android:shape="ring" android:innerRadiusRatio="3.0">
+            <solid android:color="#6D6565" /> <!-- Gray background -->
+            <thickness android:height="15dp" /> <!-- Background thickness -->
+        </shape>
+    </item>
+
+    <!-- Progress Circle (Progressed Area) -->
+    <item>
+        <clip android:clipOrientation="horizontal" android:gravity="start">
+            <shape android:shape="ring" android:innerRadiusRatio="3.0">
+                <solid android:color="#00C853" /> <!-- Green progress -->
+                <thickness android:height="15dp" /> <!-- Progress thickness -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

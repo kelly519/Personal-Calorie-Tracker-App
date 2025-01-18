@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/round_et"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:hint="Enter your email" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="textPassword"
+            android:background="@drawable/round_et"
+            android:padding="12dp"
+            android:hint="Enter your password" />
+
+        <EditText
+            android:id="@+id/edtHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your height in cm"
+            android:background="@drawable/round_et"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/edtWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your weight in kg"
+            android:background="@drawable/round_et"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/edtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your age"
+            android:inputType="number"
+            android:background="@drawable/round_et"
+            android:padding="12dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity Level"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgActivityLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioSedentary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sedentary" />
+
+            <RadioButton
+                android:id="@+id/radioModerate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moderate" />
+
+            <RadioButton
+                android:id="@+id/radioActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioWeightLoss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight Loss" />
+
+            <RadioButton
+                android:id="@+id/radioMaintenance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maintenance" />
+
+            <RadioButton
+                android:id="@+id/radioMuscleGain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muscle Gain" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gym Access"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgGymAccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioYesGym"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioNoGym"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/app_color"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14dp"
+            android:layout_marginTop="16dp"
+            android:text="Already have an account? Login here" />
+    </LinearLayout>
+
+</ScrollView>

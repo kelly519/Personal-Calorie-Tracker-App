@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Circle (Unselected area) -->
+    <item>
+        <shape android:shape="line">
+            <solid android:color="#3A857E" /> <!-- Light gray background -->
+            <thickness android:height="12dp" /> <!-- Thickness of the background -->
+        </shape>
+    </item>
+
+    <!-- Progress Circle (Selected area) -->
+    <item>
+        <rotate
+            android:fromDegrees="-90"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape android:shape="ring">
+                <solid android:color="#11B152" /> <!-- Green progress -->
+                <thickness android:height="12dp" /> <!-- Thickness of the progress -->
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>

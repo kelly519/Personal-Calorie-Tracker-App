@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+    <!-- Success Icon -->
+    <ImageView
+        android:id="@+id/icon_check"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/verified"
+    android:layout_gravity="center_horizontal" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Challenge Completed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Enjoy your snacks: A small granola bar (150 calories) or dark chocolate (20g) for a satisfying treat."
+        android:textSize="16sp"
+        android:textColor="@color/gray"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <!-- OK Button -->
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="OK"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="8dp"
+        android:backgroundTint="@color/app_color"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

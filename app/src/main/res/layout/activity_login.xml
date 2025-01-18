@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/yoga"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="16dp"
+        android:text="Login"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/email"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_et"
+        android:padding="10dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/lock"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/round_et"
+        android:padding="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/app_color"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/signup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="16dp"
+
+    android:layout_marginTop="16dp"
+    android:text="You don't have a account ? Sign Up here "
+    tools:ignore="HardcodedText" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Primary Colors -->
+        <color name="purple_500">#6200EE</color> <!-- Button background -->
+        <color name="purple_700">#3700B3</color> <!-- Button pressed -->
+        <color name="white">#FFFFFF</color> <!-- Background and text on buttons -->
+
+        <!-- Text Colors -->
+        <color name="black">#000000</color> <!-- Main title -->
+        <color name="gray">#808080</color> <!-- Subtitle -->
+        <color name="dark_gray">#505050</color> <!-- Challenge steps -->
+
+        <!-- Background Colors -->
+        <color name="background_light">#F5F5F5</color> <!-- App background -->
+        <color name="card_background">#FFEBEE</color> <!-- Placeholder for cards or panels -->
+        <color name="app_color">#03A9F4</color> <!-- Placeholder for cards or panels -->
+
+        <!-- Accent Colors -->
+        <color name="accent_yellow">#09DE12</color> <!-- For header highlights -->
+        <color name="accent_red">#F44336</color> <!-- For warning or critical buttons -->
+        <color name="pro_in_r">#F9CDCD</color>
+        <color name="purp">#ffaa66cc</color>
+        <color name="pro_in_y">#FBF4B5</color>
+        <color name="pro_in_g">#BCEFAC</color>
+        <color name="completed_day_color">#4CAF50</color>
+
+</resources>

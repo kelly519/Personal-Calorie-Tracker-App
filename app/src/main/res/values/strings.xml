@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Health and Fitness</string>
+    <string-array name="meal_types">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+</resources>
